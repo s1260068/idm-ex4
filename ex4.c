@@ -2,10 +2,6 @@
 #include<stdlib.h>
 #include<time.h>
 int main(){
-    printf("Rolling the dice...\n");
-    char name[100];
-    scanf("%s",name);
-    printf("Hello, %s\n",name);
     int s;
     srand(time(NULL));
     int total = 0;
